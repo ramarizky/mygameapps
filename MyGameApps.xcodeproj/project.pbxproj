@@ -7,61 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E10C02A298797A600B24082 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E10C029298797A600B24082 /* HomeViewModel.swift */; };
-		1E10C02F2987B50300B24082 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E10C02E2987B50300B24082 /* DetailViewModel.swift */; };
-		1E10C0312987B5D400B24082 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E10C0302987B5D400B24082 /* DetailView.swift */; };
-		1E10C0332987B9F300B24082 /* DetailGamesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E10C0322987B9F300B24082 /* DetailGamesModel.swift */; };
-		1E10C0362987C39000B24082 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E10C0352987C39000B24082 /* ProfileView.swift */; };
-		1E1A1F0929A5EFF80016205E /* FavouriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1A1F0829A5EFF80016205E /* FavouriteModel.swift */; };
-		1E1A1F0F29A5FFDE0016205E /* FavouriteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1A1F0E29A5FFDE0016205E /* FavouriteRepository.swift */; };
-		1E1A1F1229A603B10016205E /* FavouriteUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1A1F1129A603B10016205E /* FavouriteUseCase.swift */; };
-		1E1A1F1529A60D430016205E /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E1A1F1329A60D430016205E /* Main.xcdatamodeld */; };
-		1E1A1F1729A60F450016205E /* FavouriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1A1F1629A60F450016205E /* FavouriteViewModel.swift */; };
-		1E1A1F1929A61B5D0016205E /* PersistanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1A1F1829A61B5D0016205E /* PersistanceController.swift */; };
-		1E278CC52987387900E0FE45 /* GamesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E278CC42987387900E0FE45 /* GamesModel.swift */; };
-		1E278CC929873A8800E0FE45 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E278CC829873A8800E0FE45 /* HomeView.swift */; };
-		1E278CCE29873C3B00E0FE45 /* GameCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E278CCD29873C3B00E0FE45 /* GameCardView.swift */; };
-		1E93CEAE2990C9A8008B1786 /* FavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E93CEAD2990C9A8008B1786 /* FavouriteView.swift */; };
+		1E75F70A29B1AE6B009859D6 /* Detail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E75F70929B1AE6B009859D6 /* Detail.framework */; };
+		1E75F70B29B1AE6B009859D6 /* Detail.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1E75F70929B1AE6B009859D6 /* Detail.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1E75F72929B1B1C9009859D6 /* Profile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E75F72829B1B1C9009859D6 /* Profile.framework */; };
+		1E75F72A29B1B1C9009859D6 /* Profile.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1E75F72829B1B1C9009859D6 /* Profile.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1E75F76829B1BEE7009859D6 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E75F74129B1B91D009859D6 /* Core.framework */; };
+		1E75F76929B1BEE8009859D6 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1E75F74129B1B91D009859D6 /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1E75F79029B1C5DB009859D6 /* DIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E75F78F29B1C5DB009859D6 /* DIViewModel.swift */; };
+		1E75F7AB29B1CCBF009859D6 /* GamesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E75F7AA29B1CCBF009859D6 /* GamesModel.swift */; };
+		1E75F7AD29B1CCD1009859D6 /* DetailGamesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E75F7AC29B1CCD1009859D6 /* DetailGamesModel.swift */; };
+		1E75F7B429B1D78E009859D6 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E75F7B229B1D78E009859D6 /* Main.xcdatamodeld */; };
+		1E75F7E329B1DD4B009859D6 /* Favourite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E75F7E229B1DD4B009859D6 /* Favourite.framework */; };
+		1E75F7E429B1DD4B009859D6 /* Favourite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1E75F7E229B1DD4B009859D6 /* Favourite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1E75F80329B1E05D009859D6 /* Home.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E75F80229B1E05D009859D6 /* Home.framework */; };
+		1E75F80429B1E05D009859D6 /* Home.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1E75F80229B1E05D009859D6 /* Home.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1E95AB0629823840002F782D /* MyGameAppsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E95AB0529823840002F782D /* MyGameAppsApp.swift */; };
 		1E95AB0829823840002F782D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E95AB0729823840002F782D /* ContentView.swift */; };
 		1E95AB0A29823842002F782D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E95AB0929823842002F782D /* Assets.xcassets */; };
 		1E95AB0D29823842002F782D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E95AB0C29823842002F782D /* Preview Assets.xcassets */; };
-		1E9732E729AB5D0600FD05D2 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9732E629AB5D0600FD05D2 /* DIContainer.swift */; };
-		1EC83C3429A26D8E00BAB128 /* Networker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC83C3329A26D8E00BAB128 /* Networker.swift */; };
-		1EC83C3629A26DA800BAB128 /* NetworkFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC83C3529A26DA800BAB128 /* NetworkFactory.swift */; };
-		1EC83C3829A26DE400BAB128 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC83C3729A26DE400BAB128 /* NetworkError.swift */; };
-		1EC83C3B29A2705500BAB128 /* HomeServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC83C3A29A2705500BAB128 /* HomeServices.swift */; };
-		1EC83C3D29A274FC00BAB128 /* DetailServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC83C3C29A274FC00BAB128 /* DetailServices.swift */; };
+		398365FD6F0B44EB9E7544A3 /* Pods_MyGameApps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D43470D9946BAE416A7ACE /* Pods_MyGameApps.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1E75F70C29B1AE6B009859D6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1E75F7E429B1DD4B009859D6 /* Favourite.framework in Embed Frameworks */,
+				1E75F72A29B1B1C9009859D6 /* Profile.framework in Embed Frameworks */,
+				1E75F76929B1BEE8009859D6 /* Core.framework in Embed Frameworks */,
+				1E75F80429B1E05D009859D6 /* Home.framework in Embed Frameworks */,
+				1E75F70B29B1AE6B009859D6 /* Detail.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		1E10C029298797A600B24082 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		1E10C02E2987B50300B24082 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
-		1E10C0302987B5D400B24082 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
-		1E10C0322987B9F300B24082 /* DetailGamesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailGamesModel.swift; sourceTree = "<group>"; };
-		1E10C0352987C39000B24082 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		1E180EDE2991B97A0093AA32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		1E1A1F0829A5EFF80016205E /* FavouriteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteModel.swift; sourceTree = "<group>"; };
-		1E1A1F0E29A5FFDE0016205E /* FavouriteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteRepository.swift; sourceTree = "<group>"; };
-		1E1A1F1129A603B10016205E /* FavouriteUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteUseCase.swift; sourceTree = "<group>"; };
-		1E1A1F1429A60D430016205E /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
-		1E1A1F1629A60F450016205E /* FavouriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewModel.swift; sourceTree = "<group>"; };
-		1E1A1F1829A61B5D0016205E /* PersistanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceController.swift; sourceTree = "<group>"; };
-		1E278CC42987387900E0FE45 /* GamesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesModel.swift; sourceTree = "<group>"; };
-		1E278CC829873A8800E0FE45 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		1E278CCD29873C3B00E0FE45 /* GameCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCardView.swift; sourceTree = "<group>"; };
-		1E93CEAD2990C9A8008B1786 /* FavouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteView.swift; sourceTree = "<group>"; };
+		1E75F70929B1AE6B009859D6 /* Detail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Detail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E75F72829B1B1C9009859D6 /* Profile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Profile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E75F74129B1B91D009859D6 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E75F78F29B1C5DB009859D6 /* DIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIViewModel.swift; sourceTree = "<group>"; };
+		1E75F7AA29B1CCBF009859D6 /* GamesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesModel.swift; sourceTree = "<group>"; };
+		1E75F7AC29B1CCD1009859D6 /* DetailGamesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailGamesModel.swift; sourceTree = "<group>"; };
+		1E75F7B329B1D78E009859D6 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
+		1E75F7E229B1DD4B009859D6 /* Favourite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Favourite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E75F80229B1E05D009859D6 /* Home.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Home.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E95AB0229823840002F782D /* MyGameApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGameApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E95AB0529823840002F782D /* MyGameAppsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGameAppsApp.swift; sourceTree = "<group>"; };
 		1E95AB0729823840002F782D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1E95AB0929823842002F782D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E95AB0C29823842002F782D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1E9732E629AB5D0600FD05D2 /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
-		1EC83C3329A26D8E00BAB128 /* Networker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networker.swift; sourceTree = "<group>"; };
-		1EC83C3529A26DA800BAB128 /* NetworkFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkFactory.swift; sourceTree = "<group>"; };
-		1EC83C3729A26DE400BAB128 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
-		1EC83C3A29A2705500BAB128 /* HomeServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeServices.swift; sourceTree = "<group>"; };
-		1EC83C3C29A274FC00BAB128 /* DetailServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailServices.swift; sourceTree = "<group>"; };
+		789DEBCE5EB0806F78A19E1C /* Pods-MyGameApps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGameApps.debug.xcconfig"; path = "Target Support Files/Pods-MyGameApps/Pods-MyGameApps.debug.xcconfig"; sourceTree = "<group>"; };
+		B2D43470D9946BAE416A7ACE /* Pods_MyGameApps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyGameApps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF05F54E435518005E8A5D3 /* Pods-MyGameApps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGameApps.release.xcconfig"; path = "Target Support Files/Pods-MyGameApps/Pods-MyGameApps.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,111 +72,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E75F72929B1B1C9009859D6 /* Profile.framework in Frameworks */,
+				398365FD6F0B44EB9E7544A3 /* Pods_MyGameApps.framework in Frameworks */,
+				1E75F70A29B1AE6B009859D6 /* Detail.framework in Frameworks */,
+				1E75F76829B1BEE7009859D6 /* Core.framework in Frameworks */,
+				1E75F7E329B1DD4B009859D6 /* Favourite.framework in Frameworks */,
+				1E75F80329B1E05D009859D6 /* Home.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1E10C02D2987B4ED00B24082 /* Detail */ = {
+		00082D89D600D75D91A4BFE3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1E10C02E2987B50300B24082 /* DetailViewModel.swift */,
-				1E10C0302987B5D400B24082 /* DetailView.swift */,
+				1E75F80229B1E05D009859D6 /* Home.framework */,
+				1E75F7E229B1DD4B009859D6 /* Favourite.framework */,
+				1E75F74129B1B91D009859D6 /* Core.framework */,
+				1E75F72829B1B1C9009859D6 /* Profile.framework */,
+				1E75F70929B1AE6B009859D6 /* Detail.framework */,
+				B2D43470D9946BAE416A7ACE /* Pods_MyGameApps.framework */,
 			);
-			path = Detail;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1E10C0342987C35600B24082 /* Profile */ = {
+		1E75F78D29B1C5BA009859D6 /* Domainless */ = {
 			isa = PBXGroup;
 			children = (
-				1E10C0352987C39000B24082 /* ProfileView.swift */,
-			);
-			path = Profile;
-			sourceTree = "<group>";
-		};
-		1E1A1F0D29A5FFAB0016205E /* Repository */ = {
-			isa = PBXGroup;
-			children = (
-				1E1A1F0E29A5FFDE0016205E /* FavouriteRepository.swift */,
-			);
-			path = Repository;
-			sourceTree = "<group>";
-		};
-		1E1A1F1029A603940016205E /* UseCase */ = {
-			isa = PBXGroup;
-			children = (
-				1E1A1F1129A603B10016205E /* FavouriteUseCase.swift */,
-			);
-			path = UseCase;
-			sourceTree = "<group>";
-		};
-		1E278CC12987382F00E0FE45 /* Presentation */ = {
-			isa = PBXGroup;
-			children = (
-				1E278CCC29873C1E00E0FE45 /* Component */,
-				1E278CCB29873C0B00E0FE45 /* Main */,
-			);
-			path = Presentation;
-			sourceTree = "<group>";
-		};
-		1E278CC32987386500E0FE45 /* Domainless */ = {
-			isa = PBXGroup;
-			children = (
-				1E9732E529AB5CF800FD05D2 /* DI */,
-				1EC83C3929A26FFB00BAB128 /* Services */,
-				1EC83C3229A26AF300BAB128 /* Networker */,
-				1E95CE442999CC7D0047C595 /* CoreData */,
-				1E278CC62987387D00E0FE45 /* Model */,
+				1E75F7A929B1CC76009859D6 /* Model */,
+				1E75F78E29B1C5C9009859D6 /* DI */,
 			);
 			path = Domainless;
 			sourceTree = "<group>";
 		};
-		1E278CC62987387D00E0FE45 /* Model */ = {
+		1E75F78E29B1C5C9009859D6 /* DI */ = {
 			isa = PBXGroup;
 			children = (
-				1E278CC42987387900E0FE45 /* GamesModel.swift */,
-				1E10C0322987B9F300B24082 /* DetailGamesModel.swift */,
-				1E1A1F0829A5EFF80016205E /* FavouriteModel.swift */,
+				1E75F78F29B1C5DB009859D6 /* DIViewModel.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		1E75F7A929B1CC76009859D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E75F7AA29B1CCBF009859D6 /* GamesModel.swift */,
+				1E75F7AC29B1CCD1009859D6 /* DetailGamesModel.swift */,
+				1E75F7B229B1D78E009859D6 /* Main.xcdatamodeld */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		1E278CCA29873BFD00E0FE45 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				1E278CC829873A8800E0FE45 /* HomeView.swift */,
-				1E10C029298797A600B24082 /* HomeViewModel.swift */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		1E278CCB29873C0B00E0FE45 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				1E93CEAC2990C985008B1786 /* Favourite */,
-				1E10C0342987C35600B24082 /* Profile */,
-				1E10C02D2987B4ED00B24082 /* Detail */,
-				1E278CCA29873BFD00E0FE45 /* Home */,
-			);
-			path = Main;
-			sourceTree = "<group>";
-		};
-		1E278CCC29873C1E00E0FE45 /* Component */ = {
-			isa = PBXGroup;
-			children = (
-				1E278CCD29873C3B00E0FE45 /* GameCardView.swift */,
-			);
-			path = Component;
-			sourceTree = "<group>";
-		};
-		1E93CEAC2990C985008B1786 /* Favourite */ = {
-			isa = PBXGroup;
-			children = (
-				1E93CEAD2990C9A8008B1786 /* FavouriteView.swift */,
-				1E1A1F1629A60F450016205E /* FavouriteViewModel.swift */,
-			);
-			path = Favourite;
 			sourceTree = "<group>";
 		};
 		1E95AAF929823840002F782D = {
@@ -181,6 +129,8 @@
 			children = (
 				1E95AB0429823840002F782D /* MyGameApps */,
 				1E95AB0329823840002F782D /* Products */,
+				44C06D376400C2F3608E08B6 /* Pods */,
+				00082D89D600D75D91A4BFE3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -195,9 +145,8 @@
 		1E95AB0429823840002F782D /* MyGameApps */ = {
 			isa = PBXGroup;
 			children = (
+				1E75F78D29B1C5BA009859D6 /* Domainless */,
 				1E180EDE2991B97A0093AA32 /* Info.plist */,
-				1E278CC32987386500E0FE45 /* Domainless */,
-				1E278CC12987382F00E0FE45 /* Presentation */,
 				1E95AB0529823840002F782D /* MyGameAppsApp.swift */,
 				1E95AB0729823840002F782D /* ContentView.swift */,
 				1E95AB0929823842002F782D /* Assets.xcassets */,
@@ -214,42 +163,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		1E95CE442999CC7D0047C595 /* CoreData */ = {
+		44C06D376400C2F3608E08B6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1E1A1F1329A60D430016205E /* Main.xcdatamodeld */,
-				1E1A1F1029A603940016205E /* UseCase */,
-				1E1A1F0D29A5FFAB0016205E /* Repository */,
-				1E1A1F1829A61B5D0016205E /* PersistanceController.swift */,
+				789DEBCE5EB0806F78A19E1C /* Pods-MyGameApps.debug.xcconfig */,
+				CFF05F54E435518005E8A5D3 /* Pods-MyGameApps.release.xcconfig */,
 			);
-			path = CoreData;
-			sourceTree = "<group>";
-		};
-		1E9732E529AB5CF800FD05D2 /* DI */ = {
-			isa = PBXGroup;
-			children = (
-				1E9732E629AB5D0600FD05D2 /* DIContainer.swift */,
-			);
-			path = DI;
-			sourceTree = "<group>";
-		};
-		1EC83C3229A26AF300BAB128 /* Networker */ = {
-			isa = PBXGroup;
-			children = (
-				1EC83C3329A26D8E00BAB128 /* Networker.swift */,
-				1EC83C3529A26DA800BAB128 /* NetworkFactory.swift */,
-				1EC83C3729A26DE400BAB128 /* NetworkError.swift */,
-			);
-			path = Networker;
-			sourceTree = "<group>";
-		};
-		1EC83C3929A26FFB00BAB128 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				1EC83C3A29A2705500BAB128 /* HomeServices.swift */,
-				1EC83C3C29A274FC00BAB128 /* DetailServices.swift */,
-			);
-			path = Services;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,10 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E95AB1029823842002F782D /* Build configuration list for PBXNativeTarget "MyGameApps" */;
 			buildPhases = (
+				F4F5600DC1662DCCF55CB578 /* [CP] Check Pods Manifest.lock */,
 				1E95AAFE29823840002F782D /* Sources */,
 				1E95AAFF29823840002F782D /* Frameworks */,
 				1E95AB0029823840002F782D /* Resources */,
 				1E10C0372987C52C00B24082 /* ShellScript */,
+				1E75F70C29B1AE6B009859D6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -337,6 +259,28 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nexport PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
+		F4F5600DC1662DCCF55CB578 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyGameApps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -344,29 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EC83C3829A26DE400BAB128 /* NetworkError.swift in Sources */,
-				1E9732E729AB5D0600FD05D2 /* DIContainer.swift in Sources */,
-				1E1A1F0F29A5FFDE0016205E /* FavouriteRepository.swift in Sources */,
-				1EC83C3429A26D8E00BAB128 /* Networker.swift in Sources */,
 				1E95AB0829823840002F782D /* ContentView.swift in Sources */,
-				1EC83C3D29A274FC00BAB128 /* DetailServices.swift in Sources */,
-				1E1A1F0929A5EFF80016205E /* FavouriteModel.swift in Sources */,
-				1EC83C3629A26DA800BAB128 /* NetworkFactory.swift in Sources */,
-				1E10C0312987B5D400B24082 /* DetailView.swift in Sources */,
-				1E10C0362987C39000B24082 /* ProfileView.swift in Sources */,
-				1EC83C3B29A2705500BAB128 /* HomeServices.swift in Sources */,
-				1E10C02A298797A600B24082 /* HomeViewModel.swift in Sources */,
-				1E10C0332987B9F300B24082 /* DetailGamesModel.swift in Sources */,
-				1E10C02F2987B50300B24082 /* DetailViewModel.swift in Sources */,
-				1E1A1F1929A61B5D0016205E /* PersistanceController.swift in Sources */,
-				1E278CC929873A8800E0FE45 /* HomeView.swift in Sources */,
-				1E93CEAE2990C9A8008B1786 /* FavouriteView.swift in Sources */,
+				1E75F79029B1C5DB009859D6 /* DIViewModel.swift in Sources */,
 				1E95AB0629823840002F782D /* MyGameAppsApp.swift in Sources */,
-				1E278CCE29873C3B00E0FE45 /* GameCardView.swift in Sources */,
-				1E1A1F1229A603B10016205E /* FavouriteUseCase.swift in Sources */,
-				1E278CC52987387900E0FE45 /* GamesModel.swift in Sources */,
-				1E1A1F1529A60D430016205E /* Main.xcdatamodeld in Sources */,
-				1E1A1F1729A60F450016205E /* FavouriteViewModel.swift in Sources */,
+				1E75F7B429B1D78E009859D6 /* Main.xcdatamodeld in Sources */,
+				1E75F7AD29B1CCD1009859D6 /* DetailGamesModel.swift in Sources */,
+				1E75F7AB29B1CCBF009859D6 /* GamesModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +416,7 @@
 		};
 		1E95AB1129823842002F782D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 789DEBCE5EB0806F78A19E1C /* Pods-MyGameApps.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -504,6 +432,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -519,6 +448,7 @@
 		};
 		1E95AB1229823842002F782D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFF05F54E435518005E8A5D3 /* Pods-MyGameApps.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -534,6 +464,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -571,12 +502,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		1E1A1F1329A60D430016205E /* Main.xcdatamodeld */ = {
+		1E75F7B229B1D78E009859D6 /* Main.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				1E1A1F1429A60D430016205E /* Main.xcdatamodel */,
+				1E75F7B329B1D78E009859D6 /* Main.xcdatamodel */,
 			);
-			currentVersion = 1E1A1F1429A60D430016205E /* Main.xcdatamodel */;
+			currentVersion = 1E75F7B329B1D78E009859D6 /* Main.xcdatamodel */;
 			path = Main.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

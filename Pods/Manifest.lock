@@ -1,0 +1,16 @@
+PODS:
+  - Profile (1.0.0)
+
+DEPENDENCIES:
+  - Profile
+
+SPEC REPOS:
+  https://github.com/ramarizky/Modularization-ProfilePodSpecs-Module.git:
+    - Profile
+
+SPEC CHECKSUMS:
+  Profile: 0b47bff17c634949075d74c62168eca7553721f2
+
+PODFILE CHECKSUM: 2634d6bafe602bf8fa8c77dbd328f73af515adfe
+
+COCOAPODS: 1.11.3

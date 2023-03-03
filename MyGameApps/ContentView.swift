@@ -7,15 +7,19 @@
 
 import Foundation
 import SwiftUI
+import Core
+import Home
 
 struct ContentView: View {
-    @StateObject var diContainer = DIContainer()
+    @StateObject var diViewModel = DIViewModel()
+    @StateObject var diFavourite = DIFavourite()
     var body: some View {
         ZStack {
             NavigationView {
-                HomeView(homeVM: diContainer.provideHome())
+                HomeView(homeVM: diViewModel.provideHome())
             }
-            .environmentObject(diContainer)
+            .environmentObject(diViewModel)
+            .environmentObject(diFavourite)
         }
         .onAppear {
             UserDefaults.standard.set("Profile", forKey: "PROFILE_IMAGE")
