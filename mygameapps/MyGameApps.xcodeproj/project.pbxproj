@@ -8,43 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		1E75F70A29B1AE6B009859D6 /* Detail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E75F70929B1AE6B009859D6 /* Detail.framework */; };
-		1E75F70B29B1AE6B009859D6 /* Detail.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1E75F70929B1AE6B009859D6 /* Detail.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1E75F72929B1B1C9009859D6 /* Profile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E75F72829B1B1C9009859D6 /* Profile.framework */; };
-		1E75F72A29B1B1C9009859D6 /* Profile.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1E75F72829B1B1C9009859D6 /* Profile.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1E75F76829B1BEE7009859D6 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E75F74129B1B91D009859D6 /* Core.framework */; };
-		1E75F76929B1BEE8009859D6 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1E75F74129B1B91D009859D6 /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1E75F79029B1C5DB009859D6 /* DIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E75F78F29B1C5DB009859D6 /* DIViewModel.swift */; };
 		1E75F7AB29B1CCBF009859D6 /* GamesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E75F7AA29B1CCBF009859D6 /* GamesModel.swift */; };
 		1E75F7AD29B1CCD1009859D6 /* DetailGamesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E75F7AC29B1CCD1009859D6 /* DetailGamesModel.swift */; };
 		1E75F7B429B1D78E009859D6 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E75F7B229B1D78E009859D6 /* Main.xcdatamodeld */; };
 		1E75F7E329B1DD4B009859D6 /* Favourite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E75F7E229B1DD4B009859D6 /* Favourite.framework */; };
-		1E75F7E429B1DD4B009859D6 /* Favourite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1E75F7E229B1DD4B009859D6 /* Favourite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1E75F80329B1E05D009859D6 /* Home.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E75F80229B1E05D009859D6 /* Home.framework */; };
-		1E75F80429B1E05D009859D6 /* Home.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1E75F80229B1E05D009859D6 /* Home.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1E95AB0629823840002F782D /* MyGameAppsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E95AB0529823840002F782D /* MyGameAppsApp.swift */; };
 		1E95AB0829823840002F782D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E95AB0729823840002F782D /* ContentView.swift */; };
 		1E95AB0A29823842002F782D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E95AB0929823842002F782D /* Assets.xcassets */; };
 		1E95AB0D29823842002F782D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E95AB0C29823842002F782D /* Preview Assets.xcassets */; };
 		398365FD6F0B44EB9E7544A3 /* Pods_MyGameApps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D43470D9946BAE416A7ACE /* Pods_MyGameApps.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		1E75F70C29B1AE6B009859D6 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				1E75F7E429B1DD4B009859D6 /* Favourite.framework in Embed Frameworks */,
-				1E75F72A29B1B1C9009859D6 /* Profile.framework in Embed Frameworks */,
-				1E75F76929B1BEE8009859D6 /* Core.framework in Embed Frameworks */,
-				1E75F80429B1E05D009859D6 /* Home.framework in Embed Frameworks */,
-				1E75F70B29B1AE6B009859D6 /* Detail.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1E180EDE2991B97A0093AA32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -184,7 +161,6 @@
 				1E95AAFF29823840002F782D /* Frameworks */,
 				1E95AB0029823840002F782D /* Resources */,
 				1E10C0372987C52C00B24082 /* ShellScript */,
-				1E75F70C29B1AE6B009859D6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
