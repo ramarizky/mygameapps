@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "modularization-profile-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ramarizky/Modularization-Profile-Package",
+      "state" : {
+        "branch" : "main",
+        "revision" : "22f60f78f4f76a9d9ab431befd774a3ee9140eec"
+      }
+    }
+  ],
+  "version" : 2
+}

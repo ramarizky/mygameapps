@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import ProfilePackage
 
 struct HomeView: View {
 

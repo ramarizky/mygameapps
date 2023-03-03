@@ -11,7 +11,6 @@
 		1E10C02F2987B50300B24082 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E10C02E2987B50300B24082 /* DetailViewModel.swift */; };
 		1E10C0312987B5D400B24082 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E10C0302987B5D400B24082 /* DetailView.swift */; };
 		1E10C0332987B9F300B24082 /* DetailGamesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E10C0322987B9F300B24082 /* DetailGamesModel.swift */; };
-		1E10C0362987C39000B24082 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E10C0352987C39000B24082 /* ProfileView.swift */; };
 		1E1A1F0929A5EFF80016205E /* FavouriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1A1F0829A5EFF80016205E /* FavouriteModel.swift */; };
 		1E1A1F0F29A5FFDE0016205E /* FavouriteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1A1F0E29A5FFDE0016205E /* FavouriteRepository.swift */; };
 		1E1A1F1229A603B10016205E /* FavouriteUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1A1F1129A603B10016205E /* FavouriteUseCase.swift */; };
@@ -32,14 +31,27 @@
 		1EC83C3829A26DE400BAB128 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC83C3729A26DE400BAB128 /* NetworkError.swift */; };
 		1EC83C3B29A2705500BAB128 /* HomeServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC83C3A29A2705500BAB128 /* HomeServices.swift */; };
 		1EC83C3D29A274FC00BAB128 /* DetailServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC83C3C29A274FC00BAB128 /* DetailServices.swift */; };
+		1ECFBBD129B22FCA00A3214F /* ProfilePackage in Frameworks */ = {isa = PBXBuildFile; productRef = 1ECFBBD029B22FCA00A3214F /* ProfilePackage */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1ECFBBC729B2270A00A3214F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1E10C029298797A600B24082 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		1E10C02E2987B50300B24082 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		1E10C0302987B5D400B24082 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		1E10C0322987B9F300B24082 /* DetailGamesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailGamesModel.swift; sourceTree = "<group>"; };
-		1E10C0352987C39000B24082 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		1E180EDE2991B97A0093AA32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1E1A1F0829A5EFF80016205E /* FavouriteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteModel.swift; sourceTree = "<group>"; };
 		1E1A1F0E29A5FFDE0016205E /* FavouriteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteRepository.swift; sourceTree = "<group>"; };
@@ -69,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ECFBBD129B22FCA00A3214F /* ProfilePackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,14 +95,6 @@
 				1E10C0302987B5D400B24082 /* DetailView.swift */,
 			);
 			path = Detail;
-			sourceTree = "<group>";
-		};
-		1E10C0342987C35600B24082 /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-				1E10C0352987C39000B24082 /* ProfileView.swift */,
-			);
-			path = Profile;
 			sourceTree = "<group>";
 		};
 		1E1A1F0D29A5FFAB0016205E /* Repository */ = {
@@ -152,7 +157,6 @@
 			isa = PBXGroup;
 			children = (
 				1E93CEAC2990C985008B1786 /* Favourite */,
-				1E10C0342987C35600B24082 /* Profile */,
 				1E10C02D2987B4ED00B24082 /* Detail */,
 				1E278CCA29873BFD00E0FE45 /* Home */,
 			);
@@ -263,12 +267,16 @@
 				1E95AAFF29823840002F782D /* Frameworks */,
 				1E95AB0029823840002F782D /* Resources */,
 				1E10C0372987C52C00B24082 /* ShellScript */,
+				1ECFBBC729B2270A00A3214F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = MyGameApps;
+			packageProductDependencies = (
+				1ECFBBD029B22FCA00A3214F /* ProfilePackage */,
+			);
 			productName = MyGameApps;
 			productReference = 1E95AB0229823840002F782D /* MyGameApps.app */;
 			productType = "com.apple.product-type.application";
@@ -297,6 +305,9 @@
 				Base,
 			);
 			mainGroup = 1E95AAF929823840002F782D;
+			packageReferences = (
+				1ECFBBCF29B22FCA00A3214F /* XCRemoteSwiftPackageReference "Modularization-Profile-Package" */,
+			);
 			productRefGroup = 1E95AB0329823840002F782D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -353,7 +364,6 @@
 				1E1A1F0929A5EFF80016205E /* FavouriteModel.swift in Sources */,
 				1EC83C3629A26DA800BAB128 /* NetworkFactory.swift in Sources */,
 				1E10C0312987B5D400B24082 /* DetailView.swift in Sources */,
-				1E10C0362987C39000B24082 /* ProfileView.swift in Sources */,
 				1EC83C3B29A2705500BAB128 /* HomeServices.swift in Sources */,
 				1E10C02A298797A600B24082 /* HomeViewModel.swift in Sources */,
 				1E10C0332987B9F300B24082 /* DetailGamesModel.swift in Sources */,
@@ -569,6 +579,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1ECFBBCF29B22FCA00A3214F /* XCRemoteSwiftPackageReference "Modularization-Profile-Package" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ramarizky/Modularization-Profile-Package";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1ECFBBD029B22FCA00A3214F /* ProfilePackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1ECFBBCF29B22FCA00A3214F /* XCRemoteSwiftPackageReference "Modularization-Profile-Package" */;
+			productName = ProfilePackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		1E1A1F1329A60D430016205E /* Main.xcdatamodeld */ = {
