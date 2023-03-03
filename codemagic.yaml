@@ -1,45 +1,23 @@
 workflows:
-  build:
-    environment:
-      XCODE_SCHEME: MyGameApps
-      XCODE_WORKSPACE: Modularization.xcworkspace
-      XCODE_PROJECT: MyGameApps.xcodeproj
-    scripts:
-      - xcode-project-mapper
-      - xcode-test
-
-  home-build:
-    environment:
-      XCODE_SCHEME: Home
-      XCODE_WORKSPACE: Modularization.xcworkspace
-      XCODE_PROJECT: Home.xcodeproj
-    scripts:
-      - xcode-project-mapper
-      - xcode-build
-
-  detail-build:
-    environment:
-      XCODE_SCHEME: Detail
-      XCODE_WORKSPACE: Modularization.xcworkspace
-      XCODE_PROJECT: Detail.xcodeproj
-    scripts:
-      - xcode-project-mapper
-      - xcode-build
-
-  core-build:
-    environment:
-      XCODE_SCHEME: Core
-      XCODE_WORKSPACE: Modularization.xcworkspace
-      XCODE_PROJECT: Core.xcodeproj
-    scripts:
-      - xcode-project-mapper
-      - xcode-build
-
-  favourite-build:
-    environment:
-      XCODE_SCHEME: Favourite
-      XCODE_WORKSPACE: Modularization.xcworkspace
-      XCODE_PROJECT: Favourite.xcodeproj
-    scripts:
-      - xcode-project-mapper
-      - xcode-build
+  ios-project-debug: # workflow ID
+      name: iOS debug # workflow name
+      environment:
+        xcode: latest
+        cocoapods: default
+        vars:
+            XCODE_PROJECT: "mygameapps/MyGameApps.xcodeproj" # Isikan nama project Anda.
+            XCODE_SCHEME: "MyGameApps" # Isikan nama scheme project Anda.
+            XCODE_WORKSPACE: "mygameapps/Modularization.xcworkspace"
+      scripts:
+        - xcode-project-mapper
+        - name: Build debug app
+          script: |
+            xcodebuild build -project "$XCODE_PROJECT" \
+            -scheme "$XCODE_SCHEME" \
+            CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
+      artifacts:
+        - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
+      publishing:
+        email:
+          recipients:
+            - rizky.ramadhan.subagio@gmail.com 
