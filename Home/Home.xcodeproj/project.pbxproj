@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E75F7FB29B1E019009859D6 /* Home.docc in Sources */ = {isa = PBXBuildFile; fileRef = 1E75F7FA29B1E019009859D6 /* Home.docc */; };
-		1E75F7FC29B1E019009859D6 /* Home.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E75F7F929B1E019009859D6 /* Home.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E75F80A29B1E09E009859D6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E75F80929B1E09E009859D6 /* HomeView.swift */; };
 		1E75F80C29B1E0AE009859D6 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E75F80B29B1E0AE009859D6 /* HomeViewModel.swift */; };
 		1E75F81029B1E0F6009859D6 /* GameCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E75F80F29B1E0F6009859D6 /* GameCardView.swift */; };
@@ -19,8 +17,6 @@
 
 /* Begin PBXFileReference section */
 		1E75F7F629B1E019009859D6 /* Home.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Home.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E75F7F929B1E019009859D6 /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
-		1E75F7FA29B1E019009859D6 /* Home.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Home.docc; sourceTree = "<group>"; };
 		1E75F80929B1E09E009859D6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1E75F80B29B1E0AE009859D6 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		1E75F80F29B1E0F6009859D6 /* GameCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCardView.swift; sourceTree = "<group>"; };
@@ -76,8 +72,6 @@
 			children = (
 				1E75F80629B1E07A009859D6 /* Domainless */,
 				1E75F80529B1E06D009859D6 /* Presentation */,
-				1E75F7F929B1E019009859D6 /* Home.h */,
-				1E75F7FA29B1E019009859D6 /* Home.docc */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -164,7 +158,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E75F7FC29B1E019009859D6 /* Home.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +256,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E75F81029B1E0F6009859D6 /* GameCardView.swift in Sources */,
-				1E75F7FB29B1E019009859D6 /* Home.docc in Sources */,
 				1E75F80C29B1E0AE009859D6 /* HomeViewModel.swift in Sources */,
 				1E75F81329B1E13E009859D6 /* HomeServices.swift in Sources */,
 				1E75F80A29B1E09E009859D6 /* HomeView.swift in Sources */,

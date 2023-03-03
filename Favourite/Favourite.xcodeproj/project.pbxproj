@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E75F7C429B1D85D009859D6 /* Favourite.docc in Sources */ = {isa = PBXBuildFile; fileRef = 1E75F7C329B1D85D009859D6 /* Favourite.docc */; };
-		1E75F7C529B1D85D009859D6 /* Favourite.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E75F7C229B1D85D009859D6 /* Favourite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E75F7DF29B1DCB6009859D6 /* FavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E75F7DE29B1DCB6009859D6 /* FavouriteView.swift */; };
 		1E75F7E129B1DCC2009859D6 /* FavouriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E75F7E029B1DCC2009859D6 /* FavouriteViewModel.swift */; };
 		1E75F7E729B1DE18009859D6 /* DIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E75F7E629B1DE18009859D6 /* DIViewModel.swift */; };
@@ -19,8 +17,6 @@
 /* Begin PBXFileReference section */
 		18FE3D3F0749F3846D4A37FE /* Pods_Favourite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Favourite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E75F7BF29B1D85D009859D6 /* Favourite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Favourite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E75F7C229B1D85D009859D6 /* Favourite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Favourite.h; sourceTree = "<group>"; };
-		1E75F7C329B1D85D009859D6 /* Favourite.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Favourite.docc; sourceTree = "<group>"; };
 		1E75F7DE29B1DCB6009859D6 /* FavouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteView.swift; sourceTree = "<group>"; };
 		1E75F7E029B1DCC2009859D6 /* FavouriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewModel.swift; sourceTree = "<group>"; };
 		1E75F7E629B1DE18009859D6 /* DIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIViewModel.swift; sourceTree = "<group>"; };
@@ -64,8 +60,6 @@
 			children = (
 				1E75F7CC29B1D897009859D6 /* Presentation */,
 				1E75F7CB29B1D88E009859D6 /* Domainless */,
-				1E75F7C229B1D85D009859D6 /* Favourite.h */,
-				1E75F7C329B1D85D009859D6 /* Favourite.docc */,
 			);
 			path = Favourite;
 			sourceTree = "<group>";
@@ -153,7 +147,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E75F7C529B1D85D009859D6 /* Favourite.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +245,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E75F7DF29B1DCB6009859D6 /* FavouriteView.swift in Sources */,
-				1E75F7C429B1D85D009859D6 /* Favourite.docc in Sources */,
 				1E75F7E729B1DE18009859D6 /* DIViewModel.swift in Sources */,
 				1E75F7EB29B1DEC9009859D6 /* GameCardView.swift in Sources */,
 				1E75F7E129B1DCC2009859D6 /* FavouriteViewModel.swift in Sources */,

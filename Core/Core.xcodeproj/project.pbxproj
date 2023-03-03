@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E75F73A29B1B7EF009859D6 /* Core.docc in Sources */ = {isa = PBXBuildFile; fileRef = 1E75F73929B1B7EF009859D6 /* Core.docc */; };
-		1E75F73B29B1B7EF009859D6 /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E75F73829B1B7EF009859D6 /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E75F77D29B1C314009859D6 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E75F77C29B1C314009859D6 /* DIContainer.swift */; };
 		1E75F78329B1C3E4009859D6 /* PersistanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E75F77F29B1C3E4009859D6 /* PersistanceController.swift */; };
 		1E75F78929B1C48A009859D6 /* FavouriteUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E75F78829B1C48A009859D6 /* FavouriteUseCase.swift */; };
@@ -23,8 +21,6 @@
 
 /* Begin PBXFileReference section */
 		1E75F73529B1B7EF009859D6 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E75F73829B1B7EF009859D6 /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
-		1E75F73929B1B7EF009859D6 /* Core.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Core.docc; sourceTree = "<group>"; };
 		1E75F77C29B1C314009859D6 /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
 		1E75F77F29B1C3E4009859D6 /* PersistanceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistanceController.swift; sourceTree = "<group>"; };
 		1E75F78829B1C48A009859D6 /* FavouriteUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouriteUseCase.swift; sourceTree = "<group>"; };
@@ -76,8 +72,6 @@
 				1E75F79129B1C821009859D6 /* Models */,
 				1E75F77E29B1C368009859D6 /* CoreData */,
 				1E75F77B29B1C2A7009859D6 /* DI */,
-				1E75F73829B1B7EF009859D6 /* Core.h */,
-				1E75F73929B1B7EF009859D6 /* Core.docc */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -160,7 +154,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E75F73B29B1B7EF009859D6 /* Core.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +256,6 @@
 				1E75F79C29B1CA35009859D6 /* FavouriteModel.swift in Sources */,
 				1E75F7A429B1CAF2009859D6 /* Networker.swift in Sources */,
 				1E75F7B129B1D2C5009859D6 /* Main.xcdatamodeld in Sources */,
-				1E75F73A29B1B7EF009859D6 /* Core.docc in Sources */,
 				1E75F78329B1C3E4009859D6 /* PersistanceController.swift in Sources */,
 				1E75F7A629B1CB1A009859D6 /* NetworkFactory.swift in Sources */,
 				1E75F7A829B1CB26009859D6 /* NetworkError.swift in Sources */,

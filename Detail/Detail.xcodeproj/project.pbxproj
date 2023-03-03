@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E65FE3129B1AD1E0000C03A /* Detail.docc in Sources */ = {isa = PBXBuildFile; fileRef = 1E65FE3029B1AD1E0000C03A /* Detail.docc */; };
-		1E65FE3229B1AD1E0000C03A /* Detail.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E65FE2F29B1AD1E0000C03A /* Detail.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E75F7D129B1D8F5009859D6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E75F7D029B1D8F5009859D6 /* DetailView.swift */; };
 		1E75F7D329B1D903009859D6 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E75F7D229B1D903009859D6 /* DetailViewModel.swift */; };
 		1E75F7D629B1D95B009859D6 /* DetailGamesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E75F7D529B1D95B009859D6 /* DetailGamesModel.swift */; };
@@ -19,8 +17,6 @@
 
 /* Begin PBXFileReference section */
 		1E65FE2C29B1AD1E0000C03A /* Detail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Detail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E65FE2F29B1AD1E0000C03A /* Detail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Detail.h; sourceTree = "<group>"; };
-		1E65FE3029B1AD1E0000C03A /* Detail.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Detail.docc; sourceTree = "<group>"; };
 		1E75F7D029B1D8F5009859D6 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		1E75F7D229B1D903009859D6 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		1E75F7D529B1D95B009859D6 /* DetailGamesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailGamesModel.swift; sourceTree = "<group>"; };
@@ -66,8 +62,6 @@
 			children = (
 				1E75F7CE29B1D8BE009859D6 /* Domainless */,
 				1E75F7CD29B1D8B5009859D6 /* Presentation */,
-				1E65FE2F29B1AD1E0000C03A /* Detail.h */,
-				1E65FE3029B1AD1E0000C03A /* Detail.docc */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -140,7 +134,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E65FE3229B1AD1E0000C03A /* Detail.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +231,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E65FE3129B1AD1E0000C03A /* Detail.docc in Sources */,
 				1E75F7D329B1D903009859D6 /* DetailViewModel.swift in Sources */,
 				1E75F7D629B1D95B009859D6 /* DetailGamesModel.swift in Sources */,
 				1E75F7D129B1D8F5009859D6 /* DetailView.swift in Sources */,
