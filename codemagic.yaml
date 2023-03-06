@@ -1,7 +1,7 @@
 workflows:
   ios-project-debug: # workflow ID
       name: iOS debug # workflow name
-            environment:
+      environment:
         xcode: latest
         cocoapods: default
         vars:
