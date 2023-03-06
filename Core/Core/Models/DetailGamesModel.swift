@@ -4,17 +4,17 @@
 //   let detailGamesModel = try? JSONDecoder().decode(DetailGamesModel.self, from: jsonData)
 
 // MARK: - DetailGamesModel
-struct DetailGamesModel: Codable {
-    let id: Int?
-    let slug, name, nameOriginal, description: String?
+public struct DetailGamesModel: Codable {
+    public let id: Int?
+    public let slug, name, nameOriginal, description: String?
     let metacritic: Int?
     let metacriticPlatforms: [MetacriticPlatform]?
-    let released: String?
+    public let released: String?
     let tba: Bool?
     let updated: String?
-    let backgroundImage, backgroundImageAdditional: String?
+    public let backgroundImage, backgroundImageAdditional: String?
     let website: String?
-    let rating: Double?
+    public let rating: Double?
     let ratingTop: Int?
     let ratings: [Rating]?
     let reactions: [String: Int]?
@@ -39,8 +39,8 @@ struct DetailGamesModel: Codable {
     let developers, genres, tags, publishers: [Developer]?
     let esrbRating: EsrbRating?
     let clip: String?
-    let descriptionRaw: String?
-    var status: Bool = false
+    public let descriptionRaw: String?
+    public var status: Bool = false
 
     enum CodingKeys: String, CodingKey {
         case id, slug, name

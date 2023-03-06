@@ -7,6 +7,7 @@
 
 import Foundation
 import Combine
+import Core
 
 protocol DetailProtocol: AnyObject {
     var networker: NetworkerProtocol { get }

@@ -18,3 +18,7 @@ end
 target 'Core' do
   project '../Core/Core'
 end
+
+target 'Detail' do
+  project '../Detail/Detail'
+end

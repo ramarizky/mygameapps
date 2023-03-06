@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Detail
 
 struct DetailView: View {
 
@@ -22,59 +23,7 @@ struct DetailView: View {
         ZStack {
             Color("Gray")
             if detailVM.detailState == .loaded {
-                VStack(alignment: .leading) {
-                    ScrollView {
-                        AsyncImage(url: URL(string: detailVM.dataDetail?.backgroundImage ?? "")) { image in
-                            image
-                                .resizable()
-
-                        } placeholder: {
-                            ProgressView()
-                                .progressViewStyle(CircularProgressViewStyle(tint: Color.white))
-                        }
-                        .frame(height: 300)
-                        VStack(alignment: .leading) {
-                            HStack(alignment: .top) {
-                                VStack(alignment: .leading) {
-                                    Text(detailVM.dataDetail?.name ?? "")
-                                        .font(.headline)
-                                        .foregroundColor(.white)
-                                    Text("Release date: \(detailVM.changeDateFormat(detailVM.dataDetail?.released ?? ""))")
-                                        .font(.subheadline)
-                                        .foregroundColor(.white)
-                                    Text("Rating: \(detailVM.dataDetail?.rating ?? 0)")
-                                        .font(.subheadline)
-                                        .foregroundColor(.white)
-                                }
-                                Spacer()
-                                HStack {
-                                    Button {
-                                        detailVM.dataDetail?.status.toggle()
-                                        if detailVM.dataDetail?.status == true {
-                                            detailVM.addDataFavourite()
-                                        } else {
-                                            detailVM.deleteFavourite()
-                                        }
-                                    } label: {
-                                        Image(systemName: detailVM.dataDetail?.status ?? false ? "heart.fill" : "heart")
-                                            .foregroundColor(.white)
-                                    }
-                                    Text(!(detailVM.dataDetail?.status ?? false) ? "Add to Favourite" : "Remove from Favourite")
-                                        .font(.subheadline)
-                                        .foregroundColor(.white)
-                                }
-
-                            }
-                            .padding(.top, 16)
-                            Text(detailVM.dataDetail?.descriptionRaw ?? "")
-                                .padding(.top, 16)
-                                .font(.body)
-                                .foregroundColor(.white)
-                        }
-                        .padding(.horizontal, 16)
-                    }
-                    .padding(.vertical, 1)
-                }
+                DetailMainView(dataDetail: $detailVM.dataDetail, addFavourite: detailVM.addDataFavourite, deleteFavourite: detailVM.deleteFavourite)
             }
 
             if detailVM.detailState == .loading {
