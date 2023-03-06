@@ -7,11 +7,13 @@
 
 import Foundation
 import Combine
+import Core
 
 class HomeViewModel: ObservableObject {
 
     @Published var dataGames: [DataGames] = []
     @Published var homeState: HomeState = .loading
+    @Published var selectedId: Int = 0
 
     private var cancellable = Set<AnyCancellable>()
     private var homeServices: HomeProtocol

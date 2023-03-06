@@ -11,6 +11,10 @@ target 'MyGameApps' do
   # Pods for App
 end
  
+target 'Home' do
+  project '../Home/Home'
+end
+
 target 'Favourite' do
   project '../Favourite/Favourite'
 end

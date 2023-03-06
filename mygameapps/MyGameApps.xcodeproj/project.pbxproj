@@ -18,11 +18,12 @@
 		1E18995A29B5C12C00F02627 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1E18995829B5C12C00F02627 /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1E18997629B5D3BE00F02627 /* Detail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E18997529B5D3BE00F02627 /* Detail.framework */; };
 		1E18997729B5D3BE00F02627 /* Detail.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1E18997529B5D3BE00F02627 /* Detail.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1E18999D29B5DC2600F02627 /* Home.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E18999C29B5DC2600F02627 /* Home.framework */; };
+		1E18999E29B5DC2600F02627 /* Home.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1E18999C29B5DC2600F02627 /* Home.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1E1A1F0F29A5FFDE0016205E /* FavouriteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1A1F0E29A5FFDE0016205E /* FavouriteRepository.swift */; };
 		1E1A1F1229A603B10016205E /* FavouriteUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1A1F1129A603B10016205E /* FavouriteUseCase.swift */; };
 		1E1A1F1529A60D430016205E /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E1A1F1329A60D430016205E /* Main.xcdatamodeld */; };
 		1E1A1F1929A61B5D0016205E /* PersistanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1A1F1829A61B5D0016205E /* PersistanceController.swift */; };
-		1E278CC52987387900E0FE45 /* GamesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E278CC42987387900E0FE45 /* GamesModel.swift */; };
 		1E278CC929873A8800E0FE45 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E278CC829873A8800E0FE45 /* HomeView.swift */; };
 		1E278CCE29873C3B00E0FE45 /* GameCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E278CCD29873C3B00E0FE45 /* GameCardView.swift */; };
 		1E95AB0629823840002F782D /* MyGameAppsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E95AB0529823840002F782D /* MyGameAppsApp.swift */; };
@@ -49,6 +50,7 @@
 				1E18992C29B5B77300F02627 /* Favourite.framework in Embed Frameworks */,
 				1E18995A29B5C12C00F02627 /* Core.framework in Embed Frameworks */,
 				1E18997729B5D3BE00F02627 /* Detail.framework in Embed Frameworks */,
+				1E18999E29B5DC2600F02627 /* Home.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,11 +67,11 @@
 		1E18995129B5BCB000F02627 /* FavouriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewModel.swift; sourceTree = "<group>"; };
 		1E18995829B5C12C00F02627 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E18997529B5D3BE00F02627 /* Detail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Detail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E18999C29B5DC2600F02627 /* Home.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Home.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E1A1F0E29A5FFDE0016205E /* FavouriteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteRepository.swift; sourceTree = "<group>"; };
 		1E1A1F1129A603B10016205E /* FavouriteUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteUseCase.swift; sourceTree = "<group>"; };
 		1E1A1F1429A60D430016205E /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
 		1E1A1F1829A61B5D0016205E /* PersistanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceController.swift; sourceTree = "<group>"; };
-		1E278CC42987387900E0FE45 /* GamesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesModel.swift; sourceTree = "<group>"; };
 		1E278CC829873A8800E0FE45 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1E278CCD29873C3B00E0FE45 /* GameCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCardView.swift; sourceTree = "<group>"; };
 		1E95AB0229823840002F782D /* MyGameApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGameApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +100,7 @@
 				29E54E11D8ECA37B73B382B4 /* Pods_MyGameApps.framework in Frameworks */,
 				1E18997629B5D3BE00F02627 /* Detail.framework in Frameworks */,
 				1E18995929B5C12C00F02627 /* Core.framework in Frameworks */,
+				1E18999D29B5DC2600F02627 /* Home.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,17 +166,8 @@
 				1EC83C3929A26FFB00BAB128 /* Services */,
 				1EC83C3229A26AF300BAB128 /* Networker */,
 				1E95CE442999CC7D0047C595 /* CoreData */,
-				1E278CC62987387D00E0FE45 /* Model */,
 			);
 			path = Domainless;
-			sourceTree = "<group>";
-		};
-		1E278CC62987387D00E0FE45 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				1E278CC42987387900E0FE45 /* GamesModel.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		1E278CCA29873BFD00E0FE45 /* Home */ = {
@@ -284,6 +278,7 @@
 		21C0B3B0DA1E81C9C4A236E6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1E18999C29B5DC2600F02627 /* Home.framework */,
 				1E18997529B5D3BE00F02627 /* Detail.framework */,
 				1E18995829B5C12C00F02627 /* Core.framework */,
 				1E18992A29B5B77300F02627 /* Favourite.framework */,
@@ -430,7 +425,6 @@
 				1E95AB0629823840002F782D /* MyGameAppsApp.swift in Sources */,
 				1E278CCE29873C3B00E0FE45 /* GameCardView.swift in Sources */,
 				1E1A1F1229A603B10016205E /* FavouriteUseCase.swift in Sources */,
-				1E278CC52987387900E0FE45 /* GamesModel.swift in Sources */,
 				1E18995029B5BCA200F02627 /* FavouriteView.swift in Sources */,
 				1E18995229B5BCB000F02627 /* FavouriteViewModel.swift in Sources */,
 				1E1A1F1529A60D430016205E /* Main.xcdatamodeld in Sources */,

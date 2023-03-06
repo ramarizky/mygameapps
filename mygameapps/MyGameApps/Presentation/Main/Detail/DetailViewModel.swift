@@ -43,7 +43,6 @@ class DetailViewModel: ObservableObject {
             }
             .store(in: &cancellable)
     }
-    
     func addDataFavourite() {
         if let data = dataDetail {
             let favourite = Favourite(id: Int32(data.id ?? 0), title: data.name ?? "", image: data.backgroundImage ?? "", releaseDate: data.released ?? "", rating: data.rating ?? 0.0)

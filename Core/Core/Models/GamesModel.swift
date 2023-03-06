@@ -6,11 +6,11 @@
 // ]
 
 // MARK: - GamesModel
-struct GamesModel: Codable {
+public struct GamesModel: Codable {
     let count: Int?
     let next: String?
     let previous: String?
-    let results: [DataGames]?
+    public let results: [DataGames]?
     let seoTitle, seoDescription, seoKeywords, seoH1: String?
     let noindex, nofollow: Bool?
     let description: String?
@@ -51,12 +51,12 @@ struct YearYear: Codable {
 }
 
 // MARK: - Result
-struct DataGames: Codable {
-    let id: Int?
-    let slug, name, released: String?
+public struct DataGames: Codable {
+    public let id: Int?
+    public let slug, name, released: String?
     let tba: Bool?
-    let backgroundImage: String?
-    let rating: Double?
+    public let backgroundImage: String?
+    public let rating: Double?
     let ratingTop: Int?
     let ratings: [Rating]?
     let ratingsCount, reviewsTextCount, added: Int?
